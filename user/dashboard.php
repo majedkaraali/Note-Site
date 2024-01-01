@@ -76,7 +76,7 @@
                     
                 </select>
 
-                <input class="add_task" type="submit">
+                <input class="add_task" type="submit" value="Add">
             </form>
             <div class="btns">
                 

@@ -37,8 +37,8 @@
 
             
                 <div class="get_start_btns">
-                    <a href="login.php"><span>Log in</span></a>
-                    <a href="register.php"><span>Sign Up</span></a>
+                    <a href="login.php">Log in</a>
+                    <a href="register.php">Sign Up</a>
                 </div>
 
 

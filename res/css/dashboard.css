@@ -209,10 +209,8 @@ ul{
  
     background-color:  #000;
     font-size: large;
-    
     border: none;
     color: white;
-    padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -220,8 +218,7 @@ ul{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s;
-}
+    transition: background-color 0.8s ease;}
 
 .add_task:hover {
     background-color: #4ca3af;
