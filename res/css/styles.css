@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+body{
+    height: 100vh;
+}
+.main {
+    width: 100%;
+    
+
+}
+
+
+
+
+.main .container{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+a{
+    position: relative;
+    color: white;
+    background:rgb(0, 0, 0);
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 32px;
+
+    
+}
+
+
+
+.main .logo{
+    padding-bottom: 200px;
+
+}
+.main .login-sec{
+    width: 35%;
+    background-color:rgb(243, 190, 110);
+    height: 100vh;
+   font-size: 2em;
+    border-width: 5px;
+    gap: 40px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+
+.main .login-sec .get_start_btns{
+    padding-bottom: 50px;
+}
+
+
+
+.main .intro{
+    background-color:rgb(255, 255, 255);
+    width: 65%;
+    height: 100vh;
+    font-size: 2em;
+    border-width: 5px;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    gap: 8px;;
+    text-align: center;
+    padding-right: 20px;
+
+
+    
+}
+
+
