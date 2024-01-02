@@ -96,9 +96,7 @@
     <div class="head-box">
         <h1>Recent  tasks</h1>
     </div>
-
-
-    
+ 
 
     <table class="task" >
         <thead>             
