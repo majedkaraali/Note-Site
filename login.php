@@ -155,8 +155,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         var password = document.getElementById("pass").value;
         var errorDiv = document.getElementById("passwordError");
 
-        // Perform additional validation if needed
-        // For now, let's just check if the fields are not empty
+    
         if (!email || !password) {
             errorDiv.innerHTML = "Please enter both email and password.";
             return false;
