@@ -2,7 +2,7 @@
 $servername = "localhost";
 $db_username = "root";
 $db_password = "";
-$dbname = "db1";
+$dbname = "Test";
 
 $conn = new mysqli($servername, $db_username, $db_password);
 
@@ -10,7 +10,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-if (!mysqli_select_db($conn, $dbname)) {
+
     $createDbQuery = "CREATE DATABASE IF NOT EXISTS $dbname";
     if ($conn->query($createDbQuery) === TRUE) {
       
@@ -26,7 +26,7 @@ if (!mysqli_select_db($conn, $dbname)) {
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
-}
+
 
 
      // Create users table
