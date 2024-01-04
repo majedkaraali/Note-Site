@@ -23,8 +23,6 @@
                 <p>Your gateway to a more organized and accomplished life, bridging the gap between work and relaxation.</p>
             </div>
             
-
-
             <div class="login-sec">
 
                 <div class="logo">
@@ -41,24 +39,7 @@
                     <a href="register.php">Sign Up</a>
                 </div>
 
-
-
-
-
-
         </div>
-
-        
-   
-
-   
- 
-
     </div>
-
-
-
-    
-
 </body>
 </html>
