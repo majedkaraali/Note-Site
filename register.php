@@ -104,8 +104,6 @@
 </body>
 </html>
 
-
-
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $user_email = $_POST['email'];
@@ -129,8 +127,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $stmt->close();
     $conn->close();
-
 }
-
-
 ?>

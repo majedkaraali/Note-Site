@@ -212,6 +212,3 @@ require('scripts.php');
 
 
 </html>
-
-
-
